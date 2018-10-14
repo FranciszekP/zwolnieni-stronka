@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+	color: #0019ff;
 }
 
 .menu {
@@ -11,20 +12,38 @@
     background-color: white;
     position: fixed;
     z-index: 1000;
-    padding: 15% 100px;
+    padding: 20px;
+    min-width: 400px;
 }
 
 .menu-content {
-    padding: 10% 0;
+    padding: 20px;
+}
+
+.menu-logo {
+	font-size: 56px;
+}
+
+.menu-about {
+	font-size: 98px;
+}
+
+.menu-news {
+	font-size: 46px;
+}
+
+.menu-contact {
+	font-size: 70px;
 }
 
 .menu p {
-    font-size: 50px;
+    
     text-transform: uppercase;
 }
 
 .container {
     width: 100%;
+    float: left;
 }
 
 .blank-div {
@@ -69,7 +88,6 @@
     font-size: 80px;
     padding: 60px 0;
     text-transform: uppercase;
-    color: black;
 }
 
 

@@ -3,3 +3,27 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.menu {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+}
+
+.blank-div {
+    width: 30%;
+    background-color: white;
+    height: 1000px;
+    display: inline-block;
+    position: relative;
+}
+
+.content {
+    width: 69%;
+    background-color: white;
+    height: 1200px;
+    display: inline-block;
+    position: relative;
+}

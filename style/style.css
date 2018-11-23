@@ -2,13 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #3B53A0;
 }
 
 .menu {
     width: 30%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #3B53A0;
     position: fixed;
     z-index: 1000;
     padding: 20px;
@@ -19,22 +23,19 @@
 }
 
 .menu h3 {
-    font-size: 50px;
+    font-size: 60px;
     text-transform: uppercase;
-    color: #3951a2;
+    color: #F569A5;
 }
 
 .menu a {
     text-decoration: none;
 }
 
-.container {
-    width: 100%;
-}
 
 .blank-div {
     width: 30%;
-    background-color: white;
+    background-color: #3B53A0;
     height: 100%;
     float: left;
 
@@ -42,13 +43,13 @@
 
 .content {
     width: 69%;
-    background-color: white;
+    background-color: #3B53A0;
     height: 100%;
     float: left;
 }
 
 .home-page {
-    background-color: white;
+    background-color: #3B53A0;
     height: 100vh;
     position: relative;
 }
@@ -60,13 +61,14 @@
     left: 0;
     right: 0;
     margin:auto;
+    height: 80%;
 }
 
 .post {
-    background-color: white;
-    height: 100vh;
+    background-color: #3B53A0;
     position: relative;
     margin-bottom: 300px;
+    color: white;
 }
 
 .post h3 {
@@ -75,20 +77,15 @@
     font-size: 80px;
     padding: 60px 0;
     text-transform: uppercase;
-    color: #3951a2;
+    color: #F569A5;
 }
 
-.post img {
-    margin: 20px auto;
-    display: block;
-    width: 800px;
-}
 
 .socials {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    color: #3951a2;
+    color: #F569A5;
 }
 
 .social-text {
@@ -97,7 +94,8 @@
 
 .text {
     font-size: 30px;
-    width: 1100px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    padding: 0 10%;
 }
